@@ -1,5 +1,3 @@
-import React, { useContext } from "react";
-import axios from "axios";
 import DeleteForeverIcon from "@mui/icons-material/DeleteForever";
 import ImageComponent from "../utils/ImageComponent";
 // import { AuthContext } from "../AuthContext";
@@ -32,7 +30,7 @@ function UserPost() {
 
         <div className="flex justify-between items-center">
           <p className="text-xs">
-            <FavoriteIcon fontSize="small" sx={{color:"red"}}/> (
+            <FavoriteIcon fontSize="small" sx={{ color: "red" }} /> (
             {/* {data.likesAndDislike && data.likesAndDislike.length !== 0
                   ? data.likesAndDislike.length
                   : "0"} */}

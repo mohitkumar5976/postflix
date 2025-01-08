@@ -3,7 +3,7 @@ import { Button } from "@mui/material";
 import { useRef } from "react";
 
 const EditProfileForm = () => {
-  const profileRef = useRef(null);
+  const profileRef = useRef<HTMLInputElement | null>(null);
 
   const handleChooseImage = () => {
     if (profileRef.current) {

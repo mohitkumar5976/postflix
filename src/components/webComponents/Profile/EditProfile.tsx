@@ -2,7 +2,7 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import EditOutlinedIcon from "@mui/icons-material/EditOutlined";
-import EditProfileForm from "./EditProfileForm";
+import EditProfileForm from "../Profile/EditProfileForm";
 import CloseIcon from "@mui/icons-material/Close";
 const style = {
   position: "absolute",
