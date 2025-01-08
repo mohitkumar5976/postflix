@@ -48,6 +48,7 @@ export default function PostTabs() {
 
   const handleChange = (e:any,newValue: number) => {
     setValue(newValue);
+    console.log(e)
   };
 
   return (
@@ -55,7 +56,7 @@ export default function PostTabs() {
       <AppBar position="static">
         <Tabs
           value={value}
-          onChange={e=>handleChange(e,value)}
+          onChange={handleChange}
           indicatorColor="secondary"
           textColor="inherit"
           variant="fullWidth"
