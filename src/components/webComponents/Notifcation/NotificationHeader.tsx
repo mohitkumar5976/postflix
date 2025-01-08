@@ -1,7 +1,4 @@
-import React from "react";
-import NotificationsIcon from "@mui/icons-material/Notifications";
-import MessageIcon from "@mui/icons-material/Message";
-import { Badge, Grid2, Stack } from "@mui/material";
+import { Grid2 } from "@mui/material";
 import { theme } from "../../../../theme";
 import { Link } from "react-router";
 
