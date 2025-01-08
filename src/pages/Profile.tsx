@@ -49,15 +49,15 @@ const Profile = () => {
                   {/* {userData.posts && userData.posts.length !== 0
                     ? userData.posts.length
                     : "0"} */}
-                  0<p>Posts</p>
+                  30<p>Posts</p>
                 </div>
                 <div className="md:text-xl">
                   {/* {followers && followers.length !== 0 ? followers.length : "0"} */}
-                  0<p>followers</p>
+                  150<p>followers</p>
                 </div>
                 <div className="md:text-xl">
                   {/* {following && following.length !== 0 ? following.length : "0"} */}
-                  0<p>following</p>
+                  245<p>following</p>
                 </div>
               </Box>
             </Box>
