@@ -46,7 +46,7 @@ export default function PostTabs() {
   const theme = useTheme();
   const [value, setValue] = React.useState(0);
 
-  const handleChange = (e:React.SyntheticEvent,newValue: number) => {
+  const handleChange = (e:any,newValue: number) => {
     setValue(newValue);
   };
 
