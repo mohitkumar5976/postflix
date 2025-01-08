@@ -7,7 +7,6 @@ import ImageComponent from "../components/webComponents/utils/ImageComponent";
 // import { CircularProgress } from "@mui/material";
 import BottomTabs from "../components/mobileComponents/BottomTabs/BottomTabs";
 import { Box, Button, Stack } from "@mui/material";
-import UserPostList from "../components/webComponents/Profile/UserPostList";
 import EditProfile from "../components/webComponents/Profile/EditProfile";
 import PostTabs from "../components/webComponents/Profile/PostTabs";
 

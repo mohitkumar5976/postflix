@@ -46,7 +46,7 @@ export default function PostTabs() {
   const theme = useTheme();
   const [value, setValue] = React.useState(0);
 
-  const handleChange = (event: React.SyntheticEvent, newValue: number) => {
+  const handleChange = (e:React.SyntheticEvent,newValue: number) => {
     setValue(newValue);
   };
 
@@ -55,7 +55,7 @@ export default function PostTabs() {
       <AppBar position="static">
         <Tabs
           value={value}
-          onChange={handleChange}
+          onChange={e=>handleChange(e,value)}
           indicatorColor="secondary"
           textColor="inherit"
           variant="fullWidth"
